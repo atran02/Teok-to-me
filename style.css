@@ -411,7 +411,14 @@ h1 {
 }
 
 #iconography img {
-    width: 50%;
+    width: 20%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 5px;
+}
+
+#iconography #general_icons img {
+    width: 90%;
     object-fit: cover;
     overflow: hidden;
     margin: 5px;
